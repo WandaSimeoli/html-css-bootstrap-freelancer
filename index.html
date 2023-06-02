@@ -14,13 +14,29 @@
 <!-- HEADER -->
 <header class="py-5 text-bg-dark">
     <div class="container-md debug text-light">
-        <div class="row debug">
+        <div class="row debug align-items-center justify-content-between">
             <div class="col-6 debug text-center">START BOOTSTRAP</div>
             <!-- NAV BAR -->
             <div class="col-6 debug text-center">
-                <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover" href="#"> PORTFOLIO</a>
-                <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover" href="#">ABOUT</a>
-                <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover" href="#">CONTACT</a>
+                <nav class="navbar navbar-expand-lg">
+                    <ul class="navbar-nav me- mb-2 mb-lg-0">
+                        <li class="nav-item me-2">
+                    <a class="nav-link link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover" href="#"> PORTFOLIO</a> </li>
+                    <li class="nav-item me-2">
+                <a class="nav-link link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover" href="#">ABOUT</a> </li>
+                <li class="nav-item me-2">
+                <a class="nav-link link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover" href="#">CONTACT</a> </li>
+            </ul>
+                </nav>
+                <nav class="navbar navbar-expand-sm">
+                    <ul class="navbar-nav me- mb-2">
+                        <li class="nav-item me-2">
+                            <a href="" class="nav-link link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover border px-2 py-1">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+                </li>
+                     </ul>
+                </nav>
             </div>
         </div>
     </div>
@@ -89,7 +105,24 @@
                 <hr class="border-3 opacity-100 hr-w rounded">
             </div>
             <!-- FORM -->
-            <form action=""></form>
+            <form action="">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" name="name" placeholder="name">
+                    <label for="floatingInput">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@example.com">
+                    <label for="floatingInput">Email Address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" name="number" placeholder="number">
+                    <label for="floatingPassword">Phone Number</label>
+                  </div>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Message</label>
+                  </div>
+            </form>
         </div>
     </section>
 </main>
@@ -99,30 +132,30 @@
 <div class="container-md debug text-light">
     <div class="row debug">
         <!-- ADDRESS -->
-        <div class="col-4 debug text-center">
+        <div class="col-md-4 col-sm-12 debug text-center">
             <div>LOCATION</div>
             <div>2215 John Daniel Drive Clark, MO</div>
             <div>54243</div>
         </div>
         <!-- SOCIAL -->
-        <div class="col-4 debug text-center">
-            AROUND THE WEB
+        <div class="col-md-4 col-sm-12 debug text-center ">
+            <div class="pb-2"> AROUND THE WEB</div>
             <div>
-                <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover border rounded-circle px-2 py-1" href="#">
+                <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover border rounded-circle px-2 py-1  mt-4 me-3" href="#">
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
-                <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover border rounded-circle px-2 py-2" href="#">
+                <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover border rounded-circle px-2 py-2 mt-2 me-3" href="#">
                     <i class="fa-brands fa-google-plus-g"></i>
                 </a>
-                <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover border rounded-circle px-2 py-2" href="#">
+                <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover border rounded-circle px-2 py-2 mt-2 me-3" href="#">
                     <i class="fa-brands fa-twitter"></i>
                 </a>
-                <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover border rounded-circle px-2 py-1" href="#">
+                <a class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover border rounded-circle px-2 py-1 mt-4 me-3" href="#">
                     <i class="fa-brands fa-linkedin-in"></i>
                 </a> 
             </div>
         </div>
-        <div class="col-4 debug text-center">ABOUT FREELANCER
+        <div class="col-md-4 col-sm-12 debug text-center">ABOUT FREELANCER
             <p>Freelance is a free to use, open source Bootstrap theme created by 
                 <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-color" href="#">Start Bootstrap</a>
             </p>
