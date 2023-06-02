@@ -2,3 +2,15 @@
     border: 1px dashed black;
     /* min-height: 100px; */
 }
+.color {
+    background-color: #1ABC9C;
+}
+.bg-footer {
+    background-color: #3A546D;
+}
+.hr-w {
+    width: 10%;
+}
+.link-color {
+    color: #1ABC9C;
+}
