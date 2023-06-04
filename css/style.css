@@ -1,7 +1,7 @@
-.debug {
+/* .debug {
     border: 1px dashed black;
-    /* min-height: 100px; */
-}
+    min-height: 100px;
+} */
 .color {
     background-color: #1ABC9C;
 }
@@ -13,4 +13,7 @@
 }
 .link-color {
     color: #1ABC9C;
+}
+.white {
+    color: white;
 }
